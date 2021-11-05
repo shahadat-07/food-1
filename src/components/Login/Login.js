@@ -13,11 +13,6 @@ const Login = () => {
           <h1 className="h3 font-weight-normal mt-5">Welcome!</h1>
           <p className="text-secondary mb-5">Sign up or log in to continue</p>
         </div>
-        {/* <img
-          className="mb-4 w-25 img-fluid mx-auto d-block"
-          src={Logo}
-          alt=""
-        /> */}
         <div className="row">
           <div className="col-md-6">
             <img
@@ -66,12 +61,6 @@ const Login = () => {
                 <span>Haven't an account yet?</span>
                 <Link to="/signup" className={classes.register}>
                   Create an account here !
-                </Link>
-              </div>
-              <div className="d-flex mt-3">
-                <span>An Admin?</span>
-                <Link to="/admin" className={classes.register}>
-                  Go On
                 </Link>
               </div>
             </form>
